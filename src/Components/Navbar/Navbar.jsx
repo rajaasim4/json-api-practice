@@ -48,6 +48,15 @@ const Navbar = () => {
                     Delete Product
                   </Link>
                 </li>
+                <li>
+                  <Link
+                    to="/Paginated"
+                    className=" text-base"
+                    onClick={() => setShow(!show)}
+                  >
+                    Paginated
+                  </Link>
+                </li>
               </ul>
             </div>
           </div>
